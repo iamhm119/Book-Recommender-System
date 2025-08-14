@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact - My Book Recommender</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css">
+    <style>
+        body { background-color: black; color: white; }
+        .form-control { background-color: #222; color: white; border: none; }
+        .btn-purple { background-color: purple; color: white; border: none; }
+        .btn-purple:hover { background-color: #5a0ca3; }
+    </style>
+</head>
+<body>
+
+<nav class="navbar" style="background-color: purple">
+    <a class="navbar-brand">My Book Recommender</a>
+    <ul class="nav navbar-nav">
+        <li><a href="/">Home</a></li>
+        <li><a href="/recommend">Recommend</a></li>
+        <li class="active"><a href="/contact">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <h1 class="text-center">📬 Contact Us</h1>
+    <p class="text-center">We’d love to hear from you!</p>
+    <form>
+        <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" class="form-control" placeholder="Enter your name">
+        </div>
+        <div class="form-group">
+            <label>Your Email</label>
+            <input type="email" class="form-control" placeholder="Enter your email">
+        </div>
+        <div class="form-group">
+            <label>Your Message</label>
+            <textarea class="form-control" rows="4" placeholder="Type your message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-purple">Send</button>
+    </form>
+</div>
+
+</body>
+</html>
